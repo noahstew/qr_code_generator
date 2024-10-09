@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=production node ./server.js",  
     "dev": "remix dev & node ./server.js",  
-    "build": "remix build"  
+    "build": "npm run build"  
   },
   "keywords": [],
   "author": "",
