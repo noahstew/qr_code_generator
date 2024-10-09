@@ -1,0 +1,33 @@
+{
+  "name": "qr_code_generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node ./server.js",
+    "dev": "npm run && node ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@remix-run/express": "^2.12.1",
+    "@remix-run/node": "^2.12.1",
+    "@remix-run/react": "^2.12.1",
+    "cross-env": "^7.0.3",
+    "express": "^4.21.0",
+    "isbot": "^4.4.0",
+    "postcss": "^8.4.47",
+    "qr-image": "^3.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.12.1",
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.8"
+  }
+}
